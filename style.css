@@ -1,0 +1,172 @@
+.pages{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+header{
+    background-color: grey;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+header .title{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+header .navbar{
+    font-size: 12pt;
+    font-weight: 600;
+    color: blue;
+}
+
+a{ 
+    color: white !important;
+    text-decoration: none !important;
+
+}
+.banner{
+    background-image: url('./asset/sakura.jpg');
+    width: auto;
+    height: 500px;
+    position: relative;
+    padding: 20px;
+    background-repeat: round;
+}
+.form{
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+    border: solid 2px black;
+    width: 40%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color:gray;
+}
+.form p{
+    font-size: 16pt;
+    color: black;
+    font-weight: 600;
+}
+.form .input-form{
+    margin:10px 0px;
+}
+.about-us .title{
+    font-size: 16pt;
+    color: goldenrod;
+    font-weight: 600;
+    text-align: center;
+}
+.about-us .desc{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+
+}
+.about-us .read-more{
+    text-decoration: underline!important;
+    font-size: 10pt!important;
+    font-weight: 600!important;
+    color: rgb(131, 116, 116)!important;
+}
+.about-us img{
+    width: 100%;
+    padding: 20px 10px;
+    height: 300px;
+}
+.why-us{
+    margin: 20px 0px;
+    padding: 20px;
+}
+.why-us .header{
+    font-size: 25pt;
+    text-align: center;
+    font-weight: 600;
+
+}
+.why-us .title{
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+.why-us .desc{
+    font-size: 25pt;
+    font-weight: 600;
+    text-align: center;
+}
+.why-us .col-md-6:hover{
+    padding: 25px;
+    color: white;
+    background-color: goldenrod;
+}
+.why-us .fa{
+    font-size: 30pt!important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+a:hover{
+    color: goldenrod !important;
+}
+.testimony{
+    margin: 20px 0px;
+    padding: 20px;
+}
+.testimony .title{
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: center;
+}
+.testimony .desc{
+    font-size: 18pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.testimony .cust{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: right;
+}
+.choose-our-rooms .header{
+    font-size: 12pt;
+    text-align: center;
+    font-weight: 600;
+}
+.choose-our-rooms .fa{
+    font-size: 20pt!important;
+    width: 25pt;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-bottom: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose-our-rooms .desc{
+    font-size: 10pt;
+    font-weight: 500;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer ul{
+    padding: 0px;
+}
+
+@media screen and (max-width: 500px) and (min-width:0px)
+   {.form{width: 100%!important;
+    margin-top :50px auto!important;}} 
