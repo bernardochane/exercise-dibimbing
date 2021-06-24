@@ -29,7 +29,7 @@ a{
 
 }
 .banner{
-    background-image: url( https://bernardochane.github.io/exercise-dibimbing/sakura.jpg);
+    background-image: url("https://bernardochane.github.io/exercise-dibimbing/sakura.jpg");
     width: auto;
     height: 500px;
     position: relative;
