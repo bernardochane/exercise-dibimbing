@@ -29,7 +29,7 @@ a{
 
 }
 .banner{
-    background-image: url('./asset/sakura.jpg');
+    background-image: url('.sakura.jpg');
     width: auto;
     height: 500px;
     position: relative;
